@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "Racine du projet",
+			"path": ".",
+			"folder_exclude_patterns": ["*"],
+		},
+		{
+			"name": "Code source du bot",
+			"path": "./bot",
+			"folder_exclude_patterns": ["*"],
+		},
+		{
+			"name": "Tests unitaires",
+			"path": "./tests",
+			"folder_exclude_patterns": ["*"],
+		},
+	]
+}
