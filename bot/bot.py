@@ -12,7 +12,7 @@ class Bot:
                     message.author.name == "louisdevie"
                     and message.author.discriminator == "9781"
                 ):
-                    self.__client.logout()
+                    await self.__client.close()
 
             case "ping":
                 await message.channel.send("pong")
