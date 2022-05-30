@@ -13,3 +13,6 @@ class Bot:
                     and message.author.discriminator == "9781"
                 ):
                     self.__client.logout()
+
+            case "ping":
+                await message.channel.send("pong")
