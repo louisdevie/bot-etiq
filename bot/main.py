@@ -1,6 +1,6 @@
 import os
 import discord
-import config, bot, uils
+import config, bot, utils
 
 
 class BotClient(discord.Client):
