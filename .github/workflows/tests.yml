@@ -20,7 +20,7 @@ jobs:
         run: black --check bot/*.py tests/*.py
       - name: Run tests and collect coverage
         run: |
-          coverage run tests.py
+          coverage run tests/tests.py
           coverage xml
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v2
