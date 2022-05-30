@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
   run:
     runs-on: ubuntu-latest
-    environment: CodeCov
+    environment: bot-etiq
     steps:
       - name: Checkout
         uses: actions/checkout@v2
